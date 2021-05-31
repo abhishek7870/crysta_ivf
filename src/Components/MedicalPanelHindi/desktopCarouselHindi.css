@@ -1,0 +1,83 @@
+.medical-carousel {
+  overflow-x: hidden;
+  background: transparent;
+  margin-bottom: 40px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  margin: 1.5rem 0;
+}
+.MedicalDesktopViewHindi .slides {
+  padding: 0 0 0.6rem 5.6rem;
+  overflow-x: hidden;
+  display: grid;
+  grid-template-columns: repeat(9, 549.44px);
+  grid-template-rows: 234px;
+  margin-top: 35px;
+  margin-left: -13px;
+}
+
+.item {
+  background: #fff;
+  display: flex;
+
+  padding-left: 21px;
+  margin-right: 1rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  transition: all 0.5s ease;
+}
+.item .imageContainer {
+  width: 183px !important;
+  height: 183px !important;
+  border-radius: 11px !important;
+  margin-top: 11px;
+  overflow: hidden;
+}
+.item img {
+  width: 68.59px !important;
+  height: 68.59px !important;
+  min-width: 68.59px !important;
+margin-left: 24px;
+  max-width: 100%;
+  border-radius: 11px !important;
+}
+
+.item .data {
+  font-family: Poppins;
+  font-style: normal;
+  margin-left: 24px;
+  margin-top: 24px;
+}
+
+.item .data .title {
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  color: #924a91;
+  margin: 0;
+  padding-right: 5px;
+}
+.item .data h6 {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  color: #333333;
+  margin-top: 10px;
+}
+.item .data p {
+  font-size: 0.85rem;
+  margin: 0;
+}
+.navigation {
+  padding-right: 42px;
+}
+.navigation button {
+  background: transparent;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+}

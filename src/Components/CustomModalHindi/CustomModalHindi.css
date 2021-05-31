@@ -1,0 +1,372 @@
+@media screen and (min-width: 770px) {
+    .abc {
+        float: left;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        bottom: 0px;
+        right: 0px;
+        background: #0006;
+    }
+    /* The Modal (background) */
+    .commonModal {
+        z-index: 1000;
+    }
+    .commonModal .modal1 {
+        display: block;
+    }
+    .commonModal .modal2 {
+        display: none;
+    }
+    .commonModal .modal1 {
+        width: 600px !important;
+        min-height: 386px !important;
+        background: #f5f5f5;
+        border: 1px solid #924a91;
+        box-sizing: border-box;
+        border-radius: 10px;
+        padding-left: 31px;
+        position: absolute;
+        /* overflow: hidden; */
+        z-index: 2000;
+    }
+    .commonModal .modal1 h1 {
+        font-family: Poppins !important;
+        font-style: normal !important;
+        font-weight: 600 !important;
+        font-size: 24px !important;
+        line-height: 36px !important;
+        color: #924a91 !important;
+        margin-top: 15px !important;
+        padding-top: 51px !important;
+        text-align: left;
+    }
+    .commonModal .modal1 .input-field {
+        text-align: left;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    /* Modal Content */
+    .commonModal .modal1 input {
+        width: 530px !important;
+        height: 61px !important;
+        background: #ffffff !important;
+        opacity: 0.8 !important;
+        border: 0.5px solid #999299 !important;
+        box-sizing: border-box !important;
+        border-radius: 6px !important;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 27px;
+        padding: 10px;
+        color: black;
+        z-index: 50;
+    }
+    .commonModal .modal1 .myButton {
+        width: 122px !important;
+        height: 47px !important;
+        background: #ff8300;
+        border-radius: 6px;
+        text-transform: none;
+        text-shadow: none;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+        text-shadow: none;
+    }
+    .commonModal .modal1 .closeModal {
+        background-image: url("../../images/closeModal.png");
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        top: 0px;
+        right: 0px;
+        margin-top: -20px;
+        margin-right: -20px;
+        z-index: 1000;
+        cursor: pointer;
+    }
+    .commonModal .modal1 .closeModal:hover {
+        /* -webkit-animation: spin 4s linear infinite;
+    -moz-animation: spin 4s linear infinite;
+    animation: spin 4s linear infinite; */
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    @-moz-keyframes spin {
+        100% {
+            -moz-transform: rotate(360deg);
+        }
+    }
+    @-webkit-keyframes spin {
+        100% {
+            -webkit-transform: rotate(360deg);
+        }
+    }
+    @keyframes spin {
+        100% {
+            -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+        }
+    }
+    .commonModal .navbarModalShape {
+        position: relative;
+        overflow: hidden;
+        width: 220.26px;
+        height: 219.53px;
+        border: 7px solid #e9dbe9;
+        border-radius: 40px;
+        mix-blend-mode: normal;
+        transform: matrix(-0.71, -0.71, -0.71, 0.71, 0, 0);
+        left: 355px;
+        right: 0;
+        margin-top: -132px;
+        z-index: -1;
+    }
+    .commonModal .modal-content {
+        overflow: hidden;
+        float: left;
+        width: 100%;
+    }
+    /* Add Animation */
+    @-webkit-keyframes animatetop {
+        from {
+            top: -300px;
+            opacity: 0;
+        }
+        to {
+            top: 0;
+            opacity: 1;
+        }
+    }
+    @keyframes animatetop {
+        from {
+            top: -300px;
+            opacity: 0;
+        }
+        to {
+            top: 0;
+            opacity: 1;
+        }
+    }
+    /* The Close Button */
+    .close {
+        color: white;
+        float: right;
+        font-size: 24px;
+        font-weight: bold;
+    }
+    .close:hover,
+    .close:focus {
+        color: #000;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    /* .commonModal .modal-header1 {
+    padding: 2px 16px;
+    background: #F5F5F5;
+    color: white;
+}
+
+.commonModal .modal-body1 {
+    background: #F5F5F5;
+    padding: 2px 16px;
+}
+
+.commonModal .modal-footer1 {
+    padding: 2px 16px;
+    background: #F5F5F5;
+    color: white;
+} */
+    .commonModal h4 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+        color: #924a91;
+    }
+    .commonModal p {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 28px;
+        color: #333333;
+        width: 273px;
+    }
+    .commonModal h1 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        color: #333333;
+        line-height: 10px;
+    }
+    .commonModal h2 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+        color: #924a91;
+        margin-top: -8px;
+    }
+    .commonModal .navbarModalShapeTwo {
+        position: absolute;
+        width: 220.26px;
+        height: 219.53px;
+        border: 7px solid #f2cc02;
+        border-radius: 40px;
+        mix-blend-mode: normal;
+        transform: matrix(-0.71, -0.71, -0.71, 0.71, 0, 0);
+        right: -135px;
+        margin-top: -120px;
+        z-index: -50;
+    }
+    .thankYouModal {
+        padding-left: 31px;
+        overflow: visible;
+    }
+    .thankYouModal .thankh4 {
+        font-family: Poppins !important;
+        font-style: normal !important;
+        font-weight: 600 !important;
+        font-size: 24px !important;
+        line-height: 36px !important;
+        color: #924a91 !important;
+        text-align: left !important;
+        padding-left: 0px;
+    }
+    .thankYouModal .thankp {
+        font-family: Poppins !important;
+        font-style: normal !important;
+        font-weight: 300 !important;
+        font-size: 16px !important;
+        line-height: 28px !important;
+        color: #333333 !important;
+        width: 273px !important;
+        text-align: left !important;
+        padding-left: 0px !important;
+    }
+    .thankYouModal .thankh1 {
+        font-family: Poppins !important;
+        font-style: normal !important;
+        font-weight: normal !important;
+        font-size: 16px !important;
+        color: #333333 !important;
+        line-height: 10px !important;
+        text-align: left !important;
+    }
+    .thankYouModal .thankh2 {
+        font-family: Poppins !important;
+        font-style: normal !important;
+        font-weight: 600 !important;
+        font-size: 22px !important;
+        color: #924a91 !important;
+        margin-top: -8px !important;
+        text-align: left !important;
+    }
+    .thankYouModal .thankYouCustom{
+        position: absolute;
+        top: -135px;
+        left: 270px;
+        width: 280px;
+        height: 280px;
+    }
+    .thankYouModal .childImage {
+        position: absolute;
+        width: 325.13px;
+        height: 325.13px;
+        top: -150px;
+        overflow: visible;
+        margin-left: 200px;
+    }
+    .thankYouModal .closeModal {
+        background-image: url("../../images/closeModal.png");
+        position: fixed;
+        width: 40px;
+        height: 40px;
+        top: 0px;
+        right: 0px;
+        z-index: 25;
+    }
+    .error-message {
+        color: red;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .commonModal .modal1 {
+        display: none;
+    }
+    .commonModal .modal2 {
+        display: block;
+    }
+    .commonModal .modal2 {
+        width: 100% !important;
+        height: 100% !important;
+        background: #f5f5f5;
+        padding: 24px;
+        z-index: 1000;
+    }
+    .commonModal .modal2 h1 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+        color: #924a91;
+        padding-top: 10%;
+        text-align: left;
+    }
+    .commonModal .modal2 button {
+        width: 100% !important;
+        height: 48px !important;
+        background: #924a91 !important;
+        border-radius: 6px !important;
+    }
+    .commonModal .modal2 input {
+        width: 100%;
+    }
+    .commonModal .modal2 p {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 28px;
+        color: #333333;
+        text-align: left;
+    }
+    .commonModal .modal2 .callingNumberModal {
+        width: 252px;
+        height: 56px;
+        left: 23px;
+        top: 287px;
+        background: #e5e5e5;
+        border-radius: 50px;
+    }
+    .commonModal .modal2 .callingNumberModal img {
+        margin-bottom: -3px;
+    }
+    .commonModal .modal2 .callingNumberModal a {
+        margin-top: -4px;
+        margin-left: -6px;
+    }
+    .callingNumberModal h5 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 45px;
+        text-align: right;
+        color: #924a91;
+        padding-left: 45px;
+    }
+}

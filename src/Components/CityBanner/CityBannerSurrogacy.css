@@ -1,0 +1,28 @@
+.BannerDesktopViewCity .bannerLastDiv .surrogacyServiceCards .card-image{
+    width: 296px;
+    height: 250px;
+    overflow: hidden;
+}
+.BannerDesktopViewCity .bannerLastDiv .surrogacyServiceCards .card-image img {
+    min-width: 296px;
+    height: 250px;
+  }
+  .thirsSurroService{
+      width: 157% !important;
+  }
+  .BannerDesktopViewCity .bannerLastDiv .surrogacyServiceCards p{
+    font-family: Poppins !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 22px !important;
+    line-height: 36px !important;
+    color: #924a91 !important;
+  }
+  .BannerDesktopViewCity .bannerLastDiv .surrogacyServiceCards span{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    color: #333333;
+  }

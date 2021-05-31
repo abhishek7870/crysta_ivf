@@ -1,0 +1,449 @@
+@media screen and (min-width: 770px) {
+    .section-services {
+        overflow-x: hidden;
+    }
+    .yellowLineImage {
+        position: absolute;
+        width: 100%;
+        z-index: 5;
+    }
+    .serviceConnectingLine {
+        width: 75%;
+        position: absolute;
+        border: 1px solid #ff8300;
+        margin-top: 135px;
+    }
+    .orangeCircle {
+        background-color: #ff8300;
+        border-radius: 50%;
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        left: 200px;
+        top: 205px;
+        color: #ffffff;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 19px;
+        font-size: 15px;
+    }
+    .servicesDesktopHindi .thankYouModal .thankh1{
+        font-family: Poppins !important;
+        font-style: normal !important;
+        font-weight: 300 !important;
+        font-size: 16px !important;
+        line-height: 28px !important;
+        color: #333333 !important;
+        width: 420px !important;
+        text-align: left !important;
+        padding-left: 65px !important;
+    }
+    .servicesDesktopHindi {
+        display: block;
+        background-color: #f5f5f5;
+        min-height: 1000px;
+    }
+    .servicesDesktopHindi .commonModal .modal1 h1 {
+        margin-left: -65px;
+    }
+    .servicesDesktopHindi .ivfHeading {
+        margin-right: 10px;
+    }
+    .servicesMobileHindi {
+        display: none;
+    }
+    .servicesDesktopHindi h5 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 54px;
+        color: #924a91;
+        padding-top: 75px;
+        padding-left: 68px;
+    }
+    .servicesDesktopHindi h4 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 28px;
+        color: #333333;
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+
+    .servicesDesktopHindi .InnerRowService {
+        display: flex;
+        flex-direction: row;
+    }
+    .servicesDesktopHindi .OuterRowService {
+        padding-left: 75px;
+        padding-right: 35px;
+        margin-top: 20px;
+    }
+    .servicesDesktopHindi .card {
+        box-shadow: none;
+    }
+
+    .servicesDesktopHindi .card .CityService {
+        width: 207px;
+        height: 207px;
+        overflow: hidden;
+    }
+    .servicesDesktopHindi .card .CityService img {
+        min-width: 207px !important;
+    }
+
+    .imageSection {
+        height: 150px;
+    }
+    .servicesDesktopHindi h6 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 28px;
+        color: #333333;
+        margin-left: -25px;
+        margin-top: 20px;
+    }
+    .servicesDesktopHindi p {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 28px;
+        text-align: center;
+        color: #333333;
+    }
+    .desktopServiceShapeCity {
+        position: absolute;
+        position: absolute;
+        width: 341.88px;
+        height: 341.88px;
+        opacity: 0.6;
+        border: 4px solid #f2cc02;
+        box-sizing: border-box;
+        border-radius: 30px;
+        transform: rotate(-45deg);
+        margin-left: -240px;
+        margin-top: -250px;
+        z-index: 100;
+    }
+    .servicesDesktopHindi .serviceSecondDiv {
+        background: #924a91;
+        min-height: 570px;
+    }
+    .servicesDesktopHindi .serviceSecondDiv h1 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 54px;
+        color: #ffffff;
+        padding-top: 55px;
+        padding-left: 68px;
+    }
+    .servicesDesktopHindi .serviceSecondDiv h2 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 28px;
+        color: #ffffff;
+        padding-left: 70px;
+        padding-right: 50px;
+        margin-top: -10px;
+    }
+    .servicesDesktopHindi .buttonOne {
+        min-width: 355.55px;
+        height: 58px;
+        background: #ff8300;
+        border-radius: 36px;
+        font-family: Poppins;
+        text-transform: none;
+        margin-top: 15px;
+        box-shadow: none;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 27px;
+        color: #ffffff;
+    }
+    .servicesDesktopHindi .buttonOne:hover {
+        box-shadow: 5px 10px 18px #888888;
+    }
+    .servicesDesktopHindi .reactangleShape {
+        height: 122px;
+        width: 90%;
+        background: #ffffff;
+        border: 0px solid #999299;
+        box-sizing: border-box;
+        border-radius: 20px;
+        position: absolute;
+        left: 70px;
+        top: 2325px;
+    }
+    .servicesDesktopHindi .reactangleShape h1 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 48px;
+        color: #924a91;
+        padding-left: 30px;
+    }
+    .loanImage {
+        position: absolute;
+        right: 0px;
+    }
+    .orangeArrow {
+        position: absolute;
+        right: 250px;
+        top: 40px;
+        cursor: pointer;
+    }
+    /* .orangeArrow:hover{
+        animation-name: example;
+        animation-duration: 10s;
+    }
+    @keyframes example {
+        0%   { right:300px; top:40px;}
+        25%  { right:200px; top:40px;}
+        50%  { left:300px; top:40px;}
+        75%  { left:200px; top:40px;}
+        100% { left:300px; top:40px;}
+      } */
+    .servicesDesktopHindi .serviceSecondDiv .card-image img {
+        width: 146.88px;
+        height: 146.37px;
+        margin-left: 55px;
+    }
+    .servicesDesktopHindi .serviceSecondDiv .card-content p {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 24px;
+        color: #ffffff;
+        width: 233px;
+    }
+    .fertilityRow {
+        padding-left: 220px;
+    }
+    .servicesDesktopHindi .thankYouModal .thankh1 {
+        margin-left: -80px;
+    }
+    .servicesDesktopHindi .thankYouModal .thankh2 {
+        margin-left: -70px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .servicesMobileHindi .commonModal .modal2 h1 {
+        margin-left: 20px;
+    }
+    .servicesMobileHindi .commonModal .modal2 .callingNumberModal {
+        margin-left: 20px;
+    }
+    .section-services {
+        overflow-x: hidden;
+    }
+    .servicesDesktopHindi {
+        display: none;
+    }
+    .servicesMobileHindi {
+        display: block;
+        margin-top: -25px;
+    }
+    .servicesMobileHindi .fertilityChainHeading {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+        color: #333333;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 30px;
+    }
+
+    .servicesMobileHindi .firstSlider .card img {
+        width: 256px;
+        height: 148px;
+    }
+    .servicesMobileHindi .firstSlider {
+        width: 100% !important;
+        height: 260px !important;
+    }
+    .servicesMobileHindi .firstSlider .card {
+        box-shadow: none;
+    }
+    .servicesMobileHindi .firstSlider .card .card-image {
+        display: flex;
+        justify-content: center;
+    }
+    .servicesMobileHindi .firstSlider span {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 36px;
+        color: #924a91;
+    }
+    .servicesMobileHindi .firstSlider p {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 28px;
+        color: #333333;
+    }
+    /* .mobileOrangeLine {
+        position: absolute;
+        margin-top: 5px;
+    }
+    .mobileOrangeLine img{
+        width: 100%;
+    } */
+    .mobileOrangeLine {
+        position: absolute;
+        max-width: 100%;
+    }
+    .servicesMobileHindi .servicesPurpleBgHindi {
+        min-height: 685px;
+        margin-top: 40px;
+        background: #924a91;
+    }
+    .servicesMobileHindi .servicesPurpleBgHindi h2 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 36px;
+        color: #f2cc02;
+        padding-right: 24px;
+        padding-left: 24px;
+        padding-top: 31px;
+    }
+    .servicesMobileHindi .servicesPurpleBgHindi p {
+        padding-right: 24px;
+        padding-left: 24px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 28px;
+        color: #ffffff;
+    }
+    .servicesMobileHindi .servicesPurpleBgHindi p span {
+        font-weight: 700;
+    }
+    .servicesMobileHindi .servicesPurpleBgHindi .card {
+        box-shadow: none;
+    }
+    .servicesMobileHindi .servicesPurpleBgHindi .card img {
+        width: 191px !important;
+        height: 191px !important;
+    }
+    .servicesMobileHindi .servicesPurpleBgHindi .card .card-image {
+        display: flex;
+        justify-content: center;
+    }
+    .servicesMobileHindi .servicesPurpleBgHindi .card p {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    .servicesMobileHindi .servicesPurpleBgHindi .secondSlider {
+        height: 350px !important;
+    }
+    .servicesMobileHindi .servicesPurpleBgHindi .carousel .indicators .indicator-item {
+        width: 11px;
+        height: 11px;
+        margin: 10px;
+        text-indent: 0;
+        cursor: pointer;
+        border: none;
+        border-radius: 50%;
+        background: #6c3f6c;
+    }
+    .servicesMobileHindi .servicesPurpleBgHindi .carousel .indicators .indicator-item.active {
+        width: 13px;
+        height: 13px;
+        margin: 10px;
+        background: linear-gradient(180deg, #ff8300 0%, #f2cc02 100%);
+    }
+    .servicesMobileHindi .leadButton {
+        min-height: 110px;
+    }
+    .servicesMobileHindi .leadButton h6 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+        color: #333333;
+        margin-top: 40px;
+    }
+    .servicesMobileHindi .leadButton p {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 28px;
+        color: #333333;
+        padding-left: 23px;
+        padding-right: 24px;
+    }
+    .servicesMobileHindi button {
+        min-width: 264px;
+        height: 48px;
+        background: #ff8300;
+        border-radius: 36px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 27px;
+        color: #ffffff;
+        text-transform: none;
+        margin-bottom: 65px;
+    }
+    .servicesMobileHindi .leadButton ul li::before {
+        content: "\2022";
+        color: #ff8300;
+        font-weight: bold;
+        display: inline-block;
+        width: 8px;
+        height: 8px;
+    }
+    .servicesMobileHindi .leadButton ul li {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 36px;
+        color: #333333;
+        padding-left: 23px;
+        padding-right: 24px;
+    }
+    .servicesMobileHindi .leadButton ul li span {
+        margin-left: 10px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .servicesMobileHindi .fertilityChainHeading {
+        padding-top: 0px;
+    }
+    .servicesMobileHindi .servicesPurpleBgHindi {
+        min-height: 715px;
+    }
+}

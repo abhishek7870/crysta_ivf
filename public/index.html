@@ -1,0 +1,142 @@
+<!-- 
+  Theme Name: AirPnP
+  Description: A React Google Material Design template
+  Author: Raymond Nguyen
+  Version: 1.0
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/png" sizes="16x16" href="%PUBLIC_URL%/favicon.ico " />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Crysta IVF is the Most Trusted Fertility Chain in India. Crysta IVF offers IVF, ICSI, IUI, Surrogacy, Male & Female Infertility Treatments with high success rate." data-react-helmet="true" />
+    <meta name="keywords" content="Fertility Treatment, IVF Success Rates, Crysta IVF, Best IVF centres in India, surrogacy centres, Top surrogacy doctors, infertility clinic, IUI treatments with success rates, Best IVF treatment centres, Top fertility treatments, best fertility specialists with high success rate, infertility treatment, fertility services, infertility specialist Doctor, IVF Specialist, best IVF specialist in Pune, IVF treatment, IVF doctor in Pune, IVF treatment in India, IVF clinics, fertility treatment, Fertility treatments with high success rates,Best fertility specialists, IVF success rates" data-react-helmet="true"  />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" /> -->
+     <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+     <!-- <script src="https://kit.fontawesome.com/a6f665c914.js" crossorigin="anonymous" defer></script> -->
+    <title>Best IVF & Fertility centre in India | Infertility Treatment
+    </title>
+</head>
+
+<body>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+    <!-- <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> -->
+    <!-- <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.sidenav');
+            var instances = M.Sidenav.init(elems, options);
+        });
+        $(document).ready(function() {
+            $('.sidenav').sidenav();
+        });
+    </script> -->
+    <!-- <script>
+        $(document).ready(function() {
+            // Init Slider
+            $('.slider').slider({
+                indicators: false,
+                height: 500,
+                transition: 500,
+                interval: 6000
+            });
+        });
+    </script> -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.carousel');
+            var instances = M.Carousel.init(elems, options);
+        });
+
+        $(document).ready(function() {
+            $('.carousel.carousel-slider').carousel({
+                height: 500,
+                indicators: true,
+                fullWidth: true,
+                transition: 500,
+                interval: 6000
+            });
+           
+
+            
+            $('.scrollspy').scrollSpy();
+
+            $('.materialboxed').materialbox();
+
+            $('input#input_text, textarea#message').characterCounter();
+        });
+    </script>
+    <!-- <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.fixed-action-btn');
+            var instances = M.FloatingActionButton.init(elems, options);
+        });
+
+
+        $(document).ready(function() {
+            $('.fixed-action-btn').floatingActionButton();
+        });
+    </script> -->
+    <!-- <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.modal');
+            var instances = M.Modal.init(elems, options);
+        });
+
+        // Or with jQuery
+
+        $(document).ready(function() {
+            $('.modal').modal();
+        });
+    </script> -->
+    <script>
+        $(document).ready(function() {
+            $('.collapsible').collapsible();
+        });
+    </script>
+    <!-- <script>
+        $(document).ready(function() {
+            $('select').formSelect();
+        });
+    </script> -->
+    <!-- <script>
+        $(document).ready(function() {
+            $('.modal').modal();
+            $('.dropdown-trigger').dropdown();
+        });
+        document.addEventListener('touchstart', onTouchStart, {passive: true});
+    </script> -->
+    
+</body>
+
+</html>

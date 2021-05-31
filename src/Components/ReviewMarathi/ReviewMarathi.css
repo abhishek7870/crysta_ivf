@@ -1,0 +1,10 @@
+@media screen and (min-width: 710px){
+    .ReviewDesktopHindi .ReviewMarathiHead{
+        font-size: 40px !important;
+    }
+}
+@media screen and (max-width: 700px){
+    .ReviewMobileHindi .ReievHeadMobile{
+        line-height: 25px !important;
+    }
+}

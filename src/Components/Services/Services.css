@@ -1,0 +1,334 @@
+@media screen and (min-width: 770px) {
+    .section-services {
+        overflow-x: hidden;
+    }
+    .yellowLineImage {
+        position: absolute;
+        width: 100%;
+        z-index: 5;
+    }
+    .servicesDesktop {
+        display: block;
+    }
+    .servicesDesktop .ivfHeading{
+        margin-right: 10px;
+    }
+    .servicesMobile {
+        display: none;
+    }
+    .servicesDesktop h5 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 54px;
+        color: #333333;
+        padding-left: 80px;
+    }
+    .InnerRowService{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .OuterRowService{
+        padding-left: 47px;
+        padding-right: 47px;
+    }
+      .servicesDesktop .card {
+        box-shadow: none; 
+    }  
+
+    .servicesDesktop .card img {
+        width: 213.94px;
+        height: 213.94px;
+        z-index: 10 !important;
+    }
+    .servicesDesktop .card .imageDiv {
+        width: 150px;
+        height: 150px;
+        background: #f5f5f5;
+        border-radius: 20px;
+        margin-left: 77px;   
+    
+    }
+    .servicesDesktop .card .imageDiv img {
+        margin-top: -30px;
+        margin-left: -80px;
+        position: absolute;
+        
+    }
+    .servicesDesktop .card .imageDivTwo {
+        width: 150px;
+        height: 150px;
+        background: #f5f5f5;
+        border-radius: 20px;
+        margin-left: 120px;
+        position: absolute;
+        margin-top: 30px;
+    }
+    .servicesDesktop .card .imageDivTwo img {
+        margin-top: -25px;
+        margin-left: -135px;
+        position: absolute;
+        
+    }
+    .servicesDesktop .card .imageDivThree {
+        width: 150px;
+        height: 150px;
+        background: #f5f5f5;
+        border-radius: 20px;
+        margin-left: 125px;
+        
+    }
+    .servicesDesktop .card .imageDivThree img {
+        margin-top: -25px;
+        margin-left: -135px;
+        position: absolute;
+
+    }
+    .imageSection {
+        height: 150px;
+    }
+    .servicesDesktop h6 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 54px;
+        align-items: center;
+        text-align: center;
+        color: #ff8300;
+        margin-top: 66px;
+    }
+    .servicesDesktop p {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 28px;
+        text-align: center;
+        color: #333333;
+        
+    }
+    .desktopServiceShape {
+        position: absolute;
+        width: 406.14px;
+        height: 401.14px;
+        border: 7px solid #924a91;
+        border-radius: 40px;
+        mix-blend-mode: color-dodge;
+        opacity: 0.1;
+        transform: matrix(-0.71, -0.71, -0.71, 0.71, 0, 0);
+        margin-left: -261px;
+        margin-top: -50px;
+        z-index: 100;
+    }
+    .servicesDesktop .serviceSecondDiv {
+        background:#924A91;
+        height: 576px;
+    }
+    .servicesDesktop .serviceSecondDiv h1 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 50px;
+        line-height: 81px;
+        color: #ffffff;
+        padding-left: 260px;
+        padding-top: 70px;
+    }
+    .servicesDesktop .serviceSecondDiv h2 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 28px;
+        color: #ffffff;
+        width: 1050px;
+        margin-top: -20px;
+        padding-left: 264px;
+    }
+     .servicesDesktop .serviceSecondDiv .card-image img {
+        width: 146.88px;
+        height: 146.37px;
+        margin-left: 45px;
+    } 
+    .servicesDesktop .serviceSecondDiv .card-content p {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 24px;
+        color: #ffffff;
+        width: 233px;
+    }
+    .fertilityRow {
+        padding-left: 220px;
+        padding-top: 30px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .section-services {
+        overflow-x: hidden;
+    }
+    .servicesDesktop {
+        display: none;
+    }
+    .servicesMobile {
+        display: block;
+         margin-top: -25px;
+    }
+    .servicesMobile h1 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+        color: #333333;
+        margin-top: 62px;
+    }
+
+    .servicesMobile .firstSlider .card img {
+        width: 135.94px;
+        height: 134.01px;
+    }
+    .servicesMobile .firstSlider {
+        width: 100% !important;
+        height: 400px !important;
+    }
+    .servicesMobile .firstSlider .card {
+        box-shadow: none;
+    }
+    .servicesMobile .firstSlider .card .card-image {
+        display: flex;
+        justify-content: center;
+    }
+    .servicesMobile .firstSlider .card .card-content{
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+    .servicesMobile .firstSlider span {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+        color: #ff8300;
+    }
+    .servicesMobile .firstSlider p {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 28px;
+        color: #333333;
+    }
+    /* .mobileOrangeLine {
+        position: absolute;
+        margin-top: 5px;
+    }
+    .mobileOrangeLine img{
+        width: 100%;
+    } */
+    .mobileOrangeLine{
+        position: absolute;
+        max-width: 100%;
+    }
+    .servicesMobile .servicesPurpleBg {
+        min-height: 535px;
+        margin-top: 40px;
+        background: #924a91;
+    }
+    .servicesMobile .servicesPurpleBg h2 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 36px;
+        color: #f2cc02;
+        padding-right: 24px;
+        padding-left: 24px;
+        padding-top: 31px;
+    }
+    .servicesMobile .servicesPurpleBg p {
+        padding-right: 24px;
+        padding-left: 24px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 28px;
+        color: #ffffff;
+        text-align: center;
+    }
+    .servicesMobile .servicesPurpleBg p span {
+        font-weight: 700;
+    }
+    .servicesMobile .servicesPurpleBg .card {
+        box-shadow: none;
+    }
+    .servicesMobile .servicesPurpleBg .card img {
+        width: 166px !important;
+        height: 166px !important;
+    }
+    .servicesMobile .servicesPurpleBg .card .card-image {
+        display: flex;
+        justify-content: center;
+    }
+    .servicesMobile .servicesPurpleBg .card p {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        color: #ffffff;
+    }
+    .servicesMobile .servicesPurpleBg .secondSlider {
+        height: 320px !important;
+    }
+    .servicesMobile .servicesPurpleBg .carousel .indicators .indicator-item {
+        width: 28px;
+        height: 1px;
+        margin: 10px;
+        text-indent: 0;
+        cursor: pointer;
+        border: none;
+        border-radius: 1%;
+        background-color: #ff8300;
+    }
+    .servicesMobile .servicesPurpleBg .carousel .indicators .indicator-item.active {
+        width: 28px;
+        height: 3px;
+        margin: 10px;
+        background-color: #ffffff;
+    }
+    .servicesMobile .leadButton{
+        height: 110px;
+    }
+    .servicesMobile button {
+        width: 264px;
+        height: 48px;
+        background: #ff8300;
+        border-radius: 36px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 27px;
+        color: #ffffff;
+        text-transform: none;
+        margin-top: 31px;
+    }
+}
+
+@media screen and (max-width: 400px)
+{
+    .servicesMobile .servicesPurpleBg {
+        min-height: 600px;
+    }
+    .servicesMobile h1{
+        margin-top: 35px;
+    }
+}

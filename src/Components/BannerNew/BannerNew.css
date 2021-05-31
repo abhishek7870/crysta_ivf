@@ -1,0 +1,515 @@
+.modal .modal-footer .btn-flat{
+    display: none;
+}
+
+@media screen and (max-width: 769px) {
+    ::placeholder {
+        /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: #924a91;
+        opacity: 1; /* Firefox */
+    }
+
+    :-ms-input-placeholder {
+        /* Internet Explorer 10-11 */
+        color: #924a91;
+    }
+
+    ::-ms-input-placeholder {
+        /* Microsoft Edge */
+        color: #924a91;
+    }
+    .video-container{
+        margin-top: -30px;
+        height: 240px !important;
+    }
+    nav {
+        height: 90px;
+        background-color: white;
+        box-shadow: none;
+    }
+    .ThankYouMpbile {
+        width: 100%;
+        min-height: 100%;
+        top: 0px !important;
+        padding-left: 15px;
+    }
+    .ThankYouMpbile h4 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+        color: #924a91;
+        margin-top: 70px;
+    }
+    .ThankYouMpbile p {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 28px;
+        color: #333333;
+    }
+    .ThankYouMpbile h6 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #333333;
+    }
+    .ThankYouMpbile .faCutMobile{
+        float: right;
+        position: absolute;
+        top: 35px;
+        right: 25px;
+    }
+    .callingNumberModal{
+        width: 252px;
+        height: 56px;
+        
+        background: #e5e5e5;
+        border-radius: 50px;
+
+    }
+    .callingNumberModal img{
+        margin-bottom: -2px;
+    }
+    .callingNumberModal h5{
+        margin-left: -8px;
+    }
+    .paddingDiv {
+        padding-left: 24px;
+        padding-top: 24px;
+    }
+    .banner-div {
+        padding-left: 24px;
+    }
+    .roundedCallingDiv {
+        width: auto;
+        height: 46px !important;
+        border-color: #eeeeee;
+        border-style: solid;
+        margin-top: 25px;
+        border-width: 1px 0px 1px 1px;
+        border-radius: 80px 0px 0px 80px;
+    }
+    .numberMobileView {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 20px;
+        padding-left: 10px;
+        color: #ff8300;
+        width: 170px !important;
+    }
+    .brand-logo {
+        margin-left: 13px;
+    }
+    .brand-logo img {
+        width: 100px !important;
+        height: 51.89px !important;
+        margin-top: -10px;
+        margin-left: 2px;
+    }
+    .flex {
+        display: flex;
+        flex-direction: row !important;
+        justify-content: space-between;
+    }
+    .section-BannerNew h1 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 31px;
+        line-height: 46px;
+        color: #333333;
+    }
+    .paddingDivtwo {
+        padding-right: 24px;
+    }
+    .sucessDiv {
+        max-width: 366px;
+        height: 86px;
+        background: #924a91;
+        border-radius: 80px;
+        margin-top: 15px;
+    }
+    .sucessDiv h5 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 28px;
+        color: #ffffff;
+    }
+    .sucessDiv h6 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 11px;
+        color: #eeeeee;
+        margin-top: -8px;
+    }
+    .vline {
+        border-color: #9c609b;
+        border-style: solid;
+        border-width: 0px 1px 0px 0px;
+        height: 69px;
+    }
+    .banner-image {
+        background-image: url("../../images/bannerNeww.webp");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 210px;
+    }
+    .banner-image h4 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+        color: #333333;
+        padding-top: 28px;
+    }
+    .banner-image .input-field {
+        max-width: 190px;
+        padding-left: -10px;
+    }
+    .banner-image .bannerMobileNumber{
+        margin-left: -4px;
+    }
+    .banner-image label {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        color: #924a91;
+    }
+    .banner-image input {
+        border-bottom: 0.5px solid #666666 !important;
+    }
+    .input-field input[type="text"]:focus {
+        border-bottom: 1px solid #999299 !important;
+        box-shadow: 0 1px 0 0 #999299 !important;
+    }
+    .banner-image .banner-div .buttona {
+        background: #ff8300;
+        width: 103.22px;
+        height: 42px;
+        border-radius: 36px;
+    }
+    .BannerMobileView {
+        display: block;
+    }
+    .BannerDesktopView {
+        display: none;
+    }
+}
+@media screen and (max-width: 400px){
+    .banner-image h4{
+        padding-top: 19px;
+    }
+    .banner-image .input-field{
+        margin-top: -5px;
+    }
+    .banner-image .banner-div .buttona{
+        margin-top: -6px;
+    }
+    .ReviewMobile .carousel{
+        height: 400px !important;
+    }
+}
+
+@media screen and (min-width: 770px) {
+    .BannerDesktopView .thankYouModal .thankh1{
+        font-family: Poppins !important;
+        font-style: normal !important;
+        font-weight: 300 !important;
+        font-size: 16px !important;
+        line-height: 28px !important;
+        color: #333333 !important;
+        width: 300px !important;
+        text-align: left !important;
+        padding-left: 0px !important;
+    }
+    .BannerMobileView {
+        display: none;
+    }
+    .BannerDesktopView {
+        display: block;
+        z-index: 4;
+    }
+    .video-container{
+        width: 80%;
+        z-index: 100;
+        float: right;
+        right: 57px;
+    }
+    video{
+        outline: none;
+    }
+    .BannerDesktopView .navbar {
+        height: 125px;
+        box-shadow: none;
+        /* background-color: white; */
+        background-color: transparent;
+    }
+    .BannerDesktopView .navbar.active {
+        background-color: white;
+    }
+
+    .BannerDesktopView .brand-logo img {
+        width: 159px;
+        height: 82px;
+        margin-left: 70px;
+        margin-top: 22px;
+    }
+    .BannerDesktopView .rightNavbar {
+        padding-right: 68px;
+    }
+    .BannerDesktopView .CallNumber {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 33px;
+        color: #333333;
+        margin-top: 42px;
+        margin-right: 10px;
+    }
+    .BannerDesktopView .CallNumber:hover {
+        color: #924a91;
+        border-radius: 20px;
+        background-color: white;
+    }
+    .BannerDesktopView .CallNumber img {
+        width: 20px;
+        height: 20px;
+    }
+    .BannerDesktopView #call {
+        margin-bottom: -3px;
+    }
+    .BannerDesktopView .bookFreeButton {
+        width: 273.39px;
+        height: 48px;
+        background: #ff8300;
+        border-radius: 36px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 47px;
+        text-transform: none;
+        margin-top: 36px;
+    }
+    .BannerDesktopView .bookFreeButton:hover {
+        background: #ff8300;
+    }
+    .BannerDesktopView .bannerContent {
+        margin-top: 100px;
+    }
+    .BannerDesktopView h5 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        color: #333333;
+        padding-left: 68px;
+        margin-top: 30px;
+    }
+    .BannerDesktopView h6 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        color: #333333;
+        padding-left: 68px;
+      
+    }
+    .BannerDesktopView .desktopBannerImage {
+        border-radius: 40px;
+        width: 600px;
+        height: 600px;
+        margin-top: -40px;
+    }
+    .DesktopBannerShape {
+        position: absolute;
+        width: 426.62px;
+        height: 426.62px;
+        background: #f5f5f5;
+        border-radius: 50px;
+        transform: rotate(-45.05deg);
+        top: -110px;
+        right: -180px;
+        z-index: 99;
+    }
+    .BannerDesktopView .bannerNumbers h1 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 40px;
+        color: #924a91;
+        padding-bottom: 5px;
+    }
+    .BannerDesktopView .bannerNumbers h2 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 15px;
+        color: #333333;
+
+        margin-left: 13px;
+    }
+    .BannerDesktopView .bannerNumbers {
+        padding-left: 68px;
+        margin-top: -20px;
+        position: absolute;
+    }
+    .orangeSeparators {
+        border: 2px solid #FF8300;
+        height: 30px !important;
+        margin-top: 10px;
+    }
+    .numbersLanding{
+        width: 225px !important;
+    }
+    .BannerDesktopView .greyDiv {
+        width: 620px;
+        height: 262px;
+        background: #f5f5f5;
+        border-radius: 0px 200px 200px 0px;
+        margin-top: 137px;
+    }
+    .BannerDesktopView .greyDiv p {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        color: #ff8300;
+        padding-left: 80px;
+    }
+    .BannerDesktopView .greyDiv .input-field,
+    label {
+        padding-left: 80px;
+        width: 490px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        color: #333333;
+        margin-top: -12px;
+    }
+    .BannerDesktopView .greyDiv #mobile_number:focus {
+        border-bottom: 1px solid #999299 !important;
+    }
+    .input-field input[type="text"]:focus {
+        border-bottom: 1px solid #999299 !important;
+        box-shadow: 0 1px 0 0 #999299 !important;
+    }
+    .greyDiv .btnSubmit {
+        width: 126.77px;
+        height: 58px;
+        background: #ff8300;
+        border-radius: 36px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 58px;
+    }
+    .greyDiv .btnSubmit:hover{
+        background: #ff8300;
+    }
+    .greyDiv button {
+        margin-left: 80px;
+        box-shadow: none;
+        text-transform: none;
+    }
+    .navbarModalShapeTwo {
+        position: absolute;
+        width: 220.26px;
+        height: 219.53px;
+        border: 7px solid #f2cc02;
+        border-radius: 40px;
+        mix-blend-mode: normal;
+        transform: matrix(-0.71, -0.71, -0.71, 0.71, 0, 0);
+        right: -135px;
+        margin-top: -120px;
+        z-index: -50;
+    }
+    .ThankyouModalNew {
+        width: 600px;
+        height: 386px;
+        margin-top: 80px;
+        overflow: visible;
+    }
+    .CutIconModal {
+        position: absolute;
+        top: -18px;
+        right: -18px;
+        cursor: pointer;
+    }
+    .ThankyouModalNew h4 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+        color: #924a91;
+        margin-top: 35px;
+    }
+    .ThankyouModalNew .thankModalImage {
+        position: absolute;
+        top: -160px;
+        left: 220px;
+    }
+    .ThankyouModalNew h5 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 28px;
+        color: #333333;
+        margin-left: 4px;
+        width: 273px;
+    }
+    .ThankyouModalNew h6 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #333333;
+        margin-left: 5px;
+        margin-top: 35px;
+    }
+    .ThankyouModalNew h3 {
+        margin-left: 7px;
+    }
+    .ThankyouModalNew h3 span {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 33px;
+        text-align: right;
+        color: #924a91;
+        margin-left: 10px;
+    }
+    .ThankyouModalNew h3 img {
+        margin-bottom: -2px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .hEBHZX {
+        border-radius: 0;
+        bottom: 0 !important;
+        left: initial !important;
+        height: 100%;
+        right: 0 !important;
+        top: initial !important;
+        width: 90%;
+    }
+}

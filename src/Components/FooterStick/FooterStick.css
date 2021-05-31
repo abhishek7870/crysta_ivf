@@ -1,0 +1,19 @@
+@media screen and (max-width: 700px){
+    .FooterStickDiv{
+      position: fixed;
+      bottom: -20px;
+    }
+    .modalCallingDiv{
+      background-color: #924A91;
+      color: white;
+    }
+    .modalCallingDiv h2{
+      font-size: 20px;
+    }
+    .CallingDiv{
+      background-color: #F5F5F5;
+    }
+    .CallingDiv h2{
+      font-size: 20px;
+    }
+  }

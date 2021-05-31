@@ -1,0 +1,92 @@
+.treatment {
+margin-top: 5%;
+  width: 90%;
+  margin-left: 5%;
+  height: 300px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+  
+}
+.treatmentM {
+  
+  margin-top: 20px;
+  width: 90%;
+  margin-left: 5%;
+  height:400px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.treatmenthead {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+height: 80px;
+  /* black */
+
+  color: #333333;
+}
+.treatmentheadM {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+
+  /* black */
+
+  color: #333333;
+}
+.treatmentgridview {
+  display: grid;
+  grid-template-columns: repeat(3, 500px);
+  grid-gap: 32px;
+}
+
+.treatmentgridviewM{
+  display: grid;
+  grid-template-columns: repeat(1, 500px);
+}
+.treatmentgridview > li {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+
+  color: #333333;
+  list-style: none;
+}
+.treatmentgridviewM>li{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+margin-top: 10px;
+  color: #333333;
+  list-style: none;
+}
+.bulletss {
+  border: 0.5px solid black;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.bulletssM{
+  border: 0.5px solid black;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  margin-right: 10px;
+}

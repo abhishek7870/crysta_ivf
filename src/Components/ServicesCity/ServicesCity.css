@@ -1,0 +1,585 @@
+@media screen and (min-width: 770px) {
+  .servicesDesktopCity .newCardHeading {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    color: #ff8300;
+  }
+  .serviceConnectingLine {
+    width: 75%;
+    position: absolute;
+    border: 1px solid #ff8300;
+    margin-top: 135px;
+  }
+  .orangeCircle {
+    background-color: #ff8300;
+    border-radius: 50%;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 200px;
+    top: 205px;
+    color: #ffffff;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 19px;
+    font-size: 15px;
+  }
+  .servicesDesktopCity .newCardSpan {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    color: #333333;
+  }
+  .section-services {
+    overflow-x: hidden;
+    background-color: #ffffff;
+  }
+  .yellowLineImage {
+    position: absolute;
+    width: 100%;
+    z-index: 5;
+  }
+  .servicesDesktopCity .commonModal .modal1 h1 {
+    padding-left: 0px !important;
+  }
+  .servicesDesktopCity .thankYouModal .thankh4 {
+    margin-left: -74px;
+  }
+  .servicesDesktopCity {
+    display: block;
+    background-color: #ffffff;
+    min-height: 1000px;
+  }
+  .servicesDesktopCitySurrogacy {
+    display: block;
+    background-color: #f5f5f5;
+    min-height: 900px !important;
+  }
+  .servicesDesktopCity .ivfHeading {
+    margin-right: 10px;
+  }
+  .servicesMobileCity {
+    display: none;
+  }
+  .servicesDesktopCity h5 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    color: #924a91;
+    padding-top: 70px !important;
+    padding-left: 70px !important;
+  }
+  .servicesDesktopCity h4 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    color: #333333;
+    padding-left: 71px !important;
+    padding-right: 70px;
+  }
+
+  .servicesDesktopCity .InnerRowService {
+    display: flex;
+    flex-direction: row;
+  }
+  .servicesDesktopCity .OuterRowService {
+    padding-left: 75px;
+    padding-right: 35px;
+    padding-top: 10px;
+  }
+  .servicesDesktopCity .card {
+    box-shadow: none;
+  }
+
+  .servicesDesktopCity .card .CityService {
+    width: 207px;
+    height: 240px;
+    overflow: hidden;
+  }
+  .servicesDesktopCity .card .CityService img {
+    min-width: 207px !important;
+  }
+
+  .imageSection {
+    height: 150px;
+  }
+  .servicesDesktopCity h6 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+    color: #333333;
+    margin-left: -25px;
+  }
+  .servicesDesktopCity p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #333333;
+  }
+  .costFig1 {
+    position: absolute;
+    width: 420.7px;
+    height: 420.7px;
+    right: 150px;
+    border-radius: 50px;
+    background-color: #ffffff;
+    top: 175.12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(45deg);
+    overflow: hidden;
+  }
+  .fig1shape {
+    width: 647.26px;
+    height: 562.7px;
+    transform: rotate(-45deg);
+    background-color: #ffffff;
+  }
+  .servicesDesktopCity .serviceSecondDiv {
+    background: #924a91;
+    min-height: 590px !important;
+    margin-top: -42px;
+  }
+  .serviceSecondDiv1 {
+    background: white;
+    min-height: 590px !important;
+    margin-top: -42px;
+  }
+  .servicesDesktopCity .serviceSecondDivSurrogacy {
+    min-height: 470px !important;
+  }
+  .servicesDesktopCity .serviceSecondDiv h1 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 54px;
+    color: white;
+    padding-top: 65px;
+    padding-left: 70px !important;
+  }
+  .serviceSecondDiv1 h1 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 54px;
+    color: black;
+    padding-top: 65px;
+    padding-left: 70px !important;
+  }
+  .servicesDesktopCity .serviceSecondDiv h2 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    width: 50%;
+    padding-left: 72px !important;
+    padding-right: 60px !important;
+    margin-top: -15px;
+
+    color: white;
+  }
+  .serviceSecondDiv1 h2 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    width: 50%;
+    padding-left: 72px !important;
+    padding-right: 60px !important;
+    margin-top: -15px;
+
+    color: black;
+  }
+  .servicesDesktopCity .serviceSecondDiv .pricing {
+    margin-top: 10px;
+  }
+  .servicesDesktopCity .buttonOne {
+    min-width: 355.55px;
+    height: 58px;
+    background: #ff8300;
+    border-radius: 36px;
+    font-family: Poppins;
+    text-transform: none;
+    margin-top: 35px;
+    box-shadow: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 27px;
+    color: white;
+  }
+  .servicesDesktopCity .buttonOneDiv {
+    margin-top: -5px;
+    margin-left: 70px;
+  }
+
+  .servicesDesktopCity .reactangleShape {
+    height: 122px;
+    width: 90% !important;
+    background: #ffffff;
+    border: 1px solid #f5f5f5;
+    box-sizing: border-box;
+    border-radius: 20px;
+    position: absolute;
+    left: 70px !important;
+    top: 2370px !important;
+  }
+  .servicesDesktopCity .reactangleShape h1 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    color: #924a91;
+    padding-left: 30px;
+  }
+  .loanImage {
+    position: absolute;
+    right: 0px;
+  }
+  .orangeArrow {
+    position: absolute;
+    right: 250px;
+    top: 40px;
+  }
+  .servicesDesktopCity .serviceSecondDiv .card-image img {
+    width: 146.88px;
+    height: 146.37px;
+    margin-left: 55px;
+  }
+  .servicesDesktopCity .serviceSecondDiv .card-content p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    color: #ffffff;
+    width: 233px;
+  }
+  .fertilityRow {
+    padding-left: 220px;
+  }
+  .servicesDesktopCity .thankYouModal .thankh1 {
+    margin-left: 0px;
+    font-family: Poppins !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 16px !important;
+    line-height: 24px !important;
+    color: #333333 !important;
+    width: 300px !important;
+  }
+  .servicesDesktopCity .thankYouModal .thankh2 {
+    margin-left: -80px;
+  }
+  .IvfCostListDelhi {
+    padding-left: 71px !important;
+    padding-right: 71px !important;
+
+    color: white;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+
+    /* black */
+  }
+  .IvfCostListDelhi1 {
+    padding-left: 71px !important;
+    padding-right: 71px !important;
+
+    color: black;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+
+    /* black */
+  }
+  .IvfCostListDelhi span {
+    margin-left: 10px;
+  }
+  .IvfCostListDelhi1 span {
+    margin-left: 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .section-services {
+    overflow-x: hidden;
+  }
+  .servicesDesktopCity {
+    display: none;
+  }
+  .servicesMobileCity {
+    display: block;
+    margin-top: -25px;
+  }
+  .servicesMobileCity .fertilityChainHeading {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #333333;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+  }
+
+  .servicesMobileCity .firstSlider .card img {
+    width: 256px;
+    height: 148px;
+  }
+  .servicesMobileCity .firstSlider {
+    width: 100% !important;
+    height: 260px !important;
+  }
+  .servicesMobileCity .firstSlider .card {
+    box-shadow: none;
+  }
+  .servicesMobileCity .firstSlider .card .card-image {
+    display: flex;
+    justify-content: center;
+  }
+  .servicesMobileCity .firstSlider span {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 36px;
+    color: #924a91;
+  }
+  .servicesMobileCity .firstSlider p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    color: #333333;
+  }
+  /* .mobileOrangeLine {
+        position: absolute;
+        margin-top: 5px;
+    }
+    .mobileOrangeLine img{
+        width: 100%;
+    } */
+  .mobileOrangeLine {
+    position: absolute;
+    max-width: 100%;
+  }
+  .servicesMobileCity .servicesPurpleBgCity {
+    min-height: 685px;
+    margin-top: 40px;
+    background: #924a91;
+  }
+  .servicesMobileCity .servicesPurpleBgCity h2 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    color: #f2cc02;
+    padding-right: 24px;
+    padding-left: 24px;
+    padding-top: 31px;
+    text-align: center;
+  }
+  .servicesMobileCity .servicesPurpleBgCity p {
+    padding-right: 24px;
+    padding-left: 24px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    color: #ffffff;
+    text-align: center;
+  }
+  .servicesMobileCity .servicesPurpleBgCity p span {
+    font-weight: 700;
+  }
+  .servicesMobileCity .servicesPurpleBgCity .card {
+    box-shadow: none;
+  }
+  .servicesMobileCity .servicesPurpleBgCity .card img {
+    width: 191px !important;
+    height: 191px !important;
+  }
+  .secondSlider .card img {
+    z-index: 1;
+    margin: 0 auto;
+    width: 80vw !important;
+    height: auto !important;
+  }
+  .brdr-line {
+    position: absolute;
+    background: #000;
+    width: 71%;
+    height: 2px;
+    background-color: #ffa500;
+    top: 95px;
+    left: 40%;
+  }
+  .brdr-linel {
+    position: absolute;
+    background: #000;
+    width: 71%;
+    height: 2px;
+    background-color: #ffa500;
+    top: 95px;
+    right: 40%;
+  }
+  .indicatorLine {
+    width: 26%;
+    height: 2px;
+    background-color: #6c3f6c;
+    position: absolute;
+    top: 329px;
+    left: 37%;
+  }
+  .servicesMobileCity .servicesPurpleBgCity .card .card-image {
+    display: flex;
+    justify-content: center;
+  }
+  .servicesMobileCity .servicesPurpleBgCity .card p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #ffffff;
+  }
+  .servicesMobileCity .servicesPurpleBgCity .secondSlider {
+    height: 350px !important;
+  }
+  .servicesMobileCity
+    .servicesPurpleBgCity
+    .carousel
+    .indicators
+    .indicator-item {
+    width: 13px !important;
+    height: 13px !important;
+    margin: 10px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    background: #6c3f6c;
+  }
+  .servicesMobileCity
+    .servicesPurpleBgCity
+    .carousel
+    .indicators
+    .indicator-item.active {
+    width: 13px !important;
+    height: 13px !important;
+    margin: 10px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #ff8300 0%, #f2cc02 100%);
+  }
+  .servicesMobileCity .leadButton {
+    min-height: 110px;
+  }
+  .servicesMobileCity .leadButton h6 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #333333;
+    margin-top: 40px;
+  }
+  .servicesMobileCity .leadButton p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+   
+    color: #333333;
+
+    margin-left: 5%;
+  }
+  .servicesMobileCity button {
+    min-width: 264px;
+    height: 48px;
+    background: #ff8300;
+    border-radius: 36px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #ffffff;
+    text-transform: none;
+    margin-bottom: 40px;
+  }
+  /* .servicesMobileCity .leadButton ul li::before {
+    content: "\2022";
+    color: #ff8300;
+    font-weight: bold;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+  } */
+  .servicesMobileCity .leadButton ul li {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 36px;
+    color: #333333;
+    padding-left: 23px;
+    padding-right: 24px;
+  }
+  .servicesMobileCity .leadButton ul li span {
+    margin-left: 10px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .servicesMobileCity .fertilityChainHeading {
+    padding-top: 0px;
+  }
+  .servicesMobileCity .servicesPurpleBgCity {
+    min-height: 715px !important;
+  }
+  /* .indicatorLine{
+        width: 25%;
+        height: 2px;
+        background-color: #6C3F6C;
+        position: absolute;
+        top: 329px;
+        left: 135px;
+    } */
+}

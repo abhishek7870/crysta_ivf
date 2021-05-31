@@ -1,0 +1,22 @@
+.section-covidSafe{
+    margin-top: -107px;
+}
+.roundedContainer{
+    width: 88%;
+  }
+  .roundedDiv{
+    border: 1px solid #FF8300;
+    box-sizing: border-box;
+    border-radius: 200px;
+    height: 64px;
+    background: #FFFFFF;
+  }
+  .solid{
+  font-family: Google Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  color: #FF8300;
+  }

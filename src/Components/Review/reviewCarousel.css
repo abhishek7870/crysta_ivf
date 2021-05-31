@@ -1,0 +1,81 @@
+.review-carousel .header .rating {
+  display: flex;
+  align-items: center;
+}
+.review-carousel .header .navigation button {
+  color: #fff;
+}
+.review-carousel .header .navigation button:disabled {
+  opacity: 0.5;
+}
+.review-carousel .header .navigation svg {
+  width: 36px !important;
+  height: 36px !important;
+  margin-top: -20px;
+}
+.review-carousel .slides {
+  grid-template-columns: repeat(9, 548px);
+  grid-template-rows: 262px;
+}
+.review-carousel .slides .item {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding-left: 0;
+}
+
+/* .review-carousel .slides .item img {
+  width: 205px !important;
+  height: 205px !important;
+  margin-left: 24px;
+  margin-top: 26px;
+  border-radius: 20px !important;
+} */
+.review-carousel .slides .item span {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  color: #ff8300;
+}
+.review-carousel .slides .item .data {
+  padding-right: 23px;
+  padding-bottom: 17px;
+}
+.review-carousel .slides .item h6 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #999299;
+  margin-top: 5px;
+}
+.review-carousel .slides .item p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333333;
+  margin-top: -2px;
+}
+.carsphoto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  width: 400.59px;
+  height: 150.59px;
+
+  background-size: contain;
+}
+.imageMain {
+  background-size: cover;
+  width: 98.59px;
+  height: 68.59px;
+
+  height: 100px;
+}

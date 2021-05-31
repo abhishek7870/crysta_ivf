@@ -1,0 +1,77 @@
+.noShadow {
+    box-shadow: none !important;
+}
+
+.section-whycrysta h4 {
+    font-family: Google Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 38px;
+    text-align: center;
+    color: #333333;
+}
+
+.section-whycrysta span {
+    font-family: Google Sans;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 22px !important;
+    color: #333333 !important;
+}
+
+.section-whycrysta p {
+    font-family: Google Sans;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 14px !important;
+    color: #333333 !important;
+}
+
+.section-whycrysta img {
+    margin-top: 20px;
+    width: 94px;
+    height: 94px;
+}
+
+.section-whycrysta button {
+    width: 254.25px !important;
+    height: 48px;
+    background: #ff8300;
+    border-radius: 36px;
+    font-family: Google Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 47px;
+    text-transform: none;
+}
+
+.section-whycrysta button:hover {
+    background: #ff8300;
+}
+
+.buttonWhyCrysta {
+    margin-top: 50px;
+}
+
+.success-message1 {
+    color: green;
+}
+.hsr{
+    margin-left: 7px;
+}
+.hsrImage{
+    margin-left: 8px;
+}
+.tspImage{
+    margin-left: 5px;
+}
+.modal-content h5{
+    font-family: Google Sans;
+}
+@media screen and (min-width: 800px) {
+    .whyCrystaCardRow {
+        margin-left: 7%;
+    }
+}

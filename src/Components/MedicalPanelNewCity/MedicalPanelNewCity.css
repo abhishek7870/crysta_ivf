@@ -1,0 +1,282 @@
+@media screen and (max-width: 769px) {
+    .MedicalMobileView {
+        display: block;
+    }
+    .MedicalDesktopViewCity {
+        display: none;
+    }
+    .DoctorsPune h6 {
+        font-family: Poppins !important;
+        font-style: normal !important;
+        font-weight: 300 !important;
+        font-size: 16px !important;
+        line-height: 28px !important;
+        color: #333333 !important;
+        padding-left: 9px !important;
+        padding-right: 10px !important;
+    }
+    .section-medical-panel h3 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+        color: #333333;
+    }
+    .section-medical-panel {
+        background-color: #f5f5f5;
+        padding: 15px !important;
+    }
+    .section-medical-panel .carousel {
+        min-height: 630px !important;
+        z-index: 5;
+    }
+    .section-medical-panel .card-image {
+        width: 136px ;
+        height: 136px;
+        margin-top: 16px;
+        margin-left: 17px;
+        border-radius: 20px !important;
+        overflow: hidden;
+    }
+    .section-medical-panel .card-image img {
+        min-width: 136px;
+    }
+    .section-medical-panel .card {
+        height: 173.5px;
+        background: #ffffff;
+        border: 1px solid #eeeeee;
+        border-radius: 10px;
+        box-shadow: none;
+    }
+    .section-medical-panel span {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 14px;
+        color: #333333;
+    }
+    .section-medical-panel h6 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 15px;
+        color: #999299;
+    }
+    .section-medical-panel p span {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 13px !important;
+        line-height: 20px;
+        color: #999299;
+    }
+    .section-medical-panel p {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 12px !important;
+        line-height: 17px;
+        color: #924a91;
+    }
+    .carousel .indicators .indicator-item {
+        /* width: 28px !important;
+        height: 1px !important;
+        background-color: #333333 !important; */
+        /* display: inline-block; */
+        width: 28px;
+        height: 1px;
+        margin: 10px;
+        text-indent: 0;
+        cursor: pointer;
+        border: none;
+        border-radius: 1%;
+        background-color: #333333;
+        /* box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);       */
+        /* list-style-type: square; */
+    }
+    .carousel .indicators .indicator-item.active {
+        /* height: 3px !important;
+        background-color: #924a91 !important; */
+        width: 28px;
+        height: 3px;
+        margin: 10px;
+        background-color: #924a91;
+    }
+    .triangle {
+        width: 305.38px;
+        height: 305.38px;
+        background: #f2cc02;
+        border-radius: 50px;
+        transform: rotate(-45.05deg);
+        margin-left: -265px;
+        margin-top: -215px;
+        position: absolute;
+    }
+}
+
+@media screen and (min-width: 770px) {
+    .MedicalMobileView {
+        display: none;
+    }
+    .MedicalDesktopViewCity {
+        display: block;
+        background: #ffffff;
+        margin-top: -15px;
+        margin-left: -12px;
+    }
+    .puneDoctorsHeading {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 54px;
+        color: #333333;
+        margin-top: 130px;
+        padding-left: 30px;
+    }
+    .puneDoctorsPara {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 28px;
+        color: #333333;
+        padding-left: 83px;
+    }
+    .MedicalDesktopViewCity h4 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 54px;
+        color: #333333;
+        margin-left: 52px;
+        margin-top: 110px;
+    }
+    .MedicalDesktopViewCity .arrow {
+        padding-top: 30px;
+        cursor: pointer;
+        color: black;
+        font-size: 25px;
+    }
+    .MedicalDesktopViewCity .card {
+        width: 549.44px;
+        height: 234px;
+        background: #ffffff;
+        border: 1px solid #eeeeee;
+        box-sizing: border-box;
+        border-radius: 10px;
+        box-shadow: none;
+    }
+    .MedicalDesktopViewCity .card-image {
+        width: 183px !important;
+        height: 183px !important;
+        border-radius: 11px !important;
+        margin-top: 11px;
+        margin-left: 21px;
+        overflow: hidden;
+    }
+    .MedicalDesktopViewCity .card-image img {
+        min-width: 183px;
+    }
+    .MedicalDesktopViewCity .card span {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 29px;
+        color: #924a91;
+    }
+    .MedicalDesktopViewCity .card h6 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 20px;
+        color: #333333;
+    }
+    .MedicalDesktopViewCity .card p {
+        font-family: Poppins;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+        color: #924a91;
+    }
+    .MedicalDesktopViewCity .card p span {
+        font-family: Poppins;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #924a91;
+    }
+    .MedicalDesktopViewCity .bookFreeButton button {
+        width: 355.55px !important;
+        height: 58px !important;
+        background: #924a91;
+        border-radius: 36px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 57px;
+        text-transform: none;
+    }
+    .MedicalDesktopViewCity .bookFreeButton {
+        padding-bottom: 53px;
+    }
+    .MedicalDesktopViewCity .thankYouModal .thankh4 {
+        margin-top: 35px;
+        margin-left: -5px;
+    }
+    .MedicalDesktopViewCity .thankYouModal .thankh1{
+        font-family: Poppins !important;
+        font-style: normal !important;
+        font-weight: 300 !important;
+        font-size: 16px !important;
+        line-height: 28px !important;
+        color: #333333 !important;
+        width: 300px !important;
+        text-align: left !important;
+        padding-left: 0px !important;
+    }
+    .carousel {
+        height: 300px !important;
+    }
+    .MedicalDesktopViewCity .arrowRight {
+        background: #333333;
+        /* opacity: 0.5; */
+        cursor: pointer;
+        width: 36px;
+        height: 36px;
+    }
+    .MedicalDesktopViewCity .arrowLeft {
+        background: #333333;
+        /* opacity: 0.5; */
+        cursor: pointer;
+    }
+    .MedicalDesktopViewCity .arrowLeft img {
+        width: 36px !important;
+        height: 36px !important;
+        transform: rotate(-180deg);
+    }
+    .MedicalDesktopViewCity .arrowLeft img:hover {
+        opacity: 0.5;
+    }
+    .MedicalDesktopViewCity .arrowRight img:hover {
+        opacity: 0.5;
+    }
+    .MedicalDesktopViewCity .arrowRight img {
+        width: 36px !important;
+        height: 36px !important;
+    }
+    .MedicalDesktopViewCity .carousel {
+        width: 95%;
+    }
+    .MedicalDesktopViewCity .cardRow {
+        padding-left: 35px;
+    }
+}

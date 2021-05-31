@@ -1,0 +1,30 @@
+.ServiceDesktopCost .LoanDivIvfCost {
+    height: 122px;
+    width: 90% !important;
+    background: #ffffff;
+    border: 1px solid #f5f5f5;
+    box-sizing: border-box;
+    border-radius: 20px;
+    position: absolute;
+    left: 70px !important;
+    top: 635px !important;
+}
+
+.ServiceDesktopCost  .LoanDivIvfCost h1 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    color: #924a91;
+    padding-left: 30px;
+}
+
+.ServiceDesktopCost {
+    min-height: 580px !important;
+}
+
+.btnmain{
+    border: none;
+    cursor: pointer;
+}

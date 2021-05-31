@@ -1,0 +1,16 @@
+.BannerDesktopViewCity .brand-logo img {
+    margin-left: 68px;
+    margin-top: 11px;
+}
+.BannerDesktopViewCity .CallNumber {
+    color: #333;
+    margin-top: 28px;
+}
+/*.BannerDesktopViewCity .CallNumber:hover {
+    color: #924a91;
+    border-radius: 20px;
+    background-color: white;
+}*/
+.bannerLastDiv .bannerCards .card-image img {
+    width: 296px;
+}

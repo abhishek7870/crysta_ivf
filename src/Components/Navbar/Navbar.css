@@ -1,0 +1,87 @@
+.btn.waves-effect.transparent 
+{ 
+    border: 1px solid #fff; 
+}
+.modalButtons input{
+    margin: 5px !important;
+}
+.no-shadows {
+    box-shadow: none!important;
+}
+ /* .brand-logo
+{
+    margin-left: 37px !important;
+    margin-top: 42px !important;
+} */
+/* .CallNumber{
+    font-family: Google Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 31px;
+    color: #924A91;
+    margin-top: 50px;
+}
+.CallNumber1{
+    font-family: Google Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 31px;
+    color: #924A91;
+}
+#call
+{
+    width: 17px;
+    height: 17px;
+}
+.bookFreeButton{
+    font-family: Google Sans;
+    width: 273.39px;
+    height: 48px;
+    background: #FF8300;
+    border-radius: 36px;
+    text-transform: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 47px;
+    align-items: center;
+    text-align: center;
+    margin-top: 42px !important;
+}
+.bookFreeButton1{
+    font-family: Google Sans;
+    width: 273.39px;
+    height: 48px;
+    background: #FF8300;
+    border-radius: 36px;
+    text-transform: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 47px;
+    align-items: center;
+    text-align: center;
+}
+.bookFreeButton:hover{
+    background: #FF8300 !important; 
+} */
+.modal-content h5{
+    font-family: Google Sans;
+}
+@media screen and (min-width:800px)
+{
+    #modal1{
+        width: 45%;
+    }
+    
+}
+@media screen and (max-width:768px)
+{
+    .brand-logo
+    {
+        margin-left: -17px !important;
+        margin-top: 0px !important;
+    }
+}

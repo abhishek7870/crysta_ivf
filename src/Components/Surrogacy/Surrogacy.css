@@ -1,0 +1,51 @@
+@media screen and (max-width: 768px){
+    .servicesMobileCity.surr .firstSlider{
+        height: 400px !important;
+    }
+    .servicesMobileCity.surr button{margin-bottom: 5px;}
+    .servicesMobileCity.surr .firstSlider .card{overflow: hidden;}
+    .servicesMobileCity.surr .firstSlider .card img{height: auto;}
+    .servicesMobileCity.surr .surrslider3{height: 210px; width: 100%; background: url('../../images/surrslider-3.svg')  6vw -6vw no-repeat;
+        background-size: 140%; width: 100%
+    }
+    .surr .slide-container h6 span{line-height: 24px}
+    .surrslider2{height: 200px !important}
+    .servicesMobileCity.surr .fertilityChainHeading{margin-bottom: 5px;}
+    .servicesMobileCity.surr .card .card-content{
+        padding: 12px 15px;
+    }
+    .surr .whyCrysta{min-height: 215px !important; margin-bottom: 30px}
+    .surr .whyCrysta span{color: #fff}
+    .whyCrysta h2{margin-bottom: 0 !important; padding-top: 21px !important}
+    .surr .whyCrystaSlider{height: 150px !important}
+    .surr .firstSlider{padding:0 15px}
+    .surr.servicesMobileCity .leadButton p{padding:0}
+    .surr .leadButton{margin-top: 0px; padding: 10px 25px 0 15px}
+    .aboutCrystaCity{padding: 84px 24px 24px 24px !important;}
+    ul.surr-list li{display: flex;}
+    ul.surr-list li:before{content:'\2022' !important;padding-right: 15px !important;}
+    
+    .cta{
+        padding: 15px !important;
+        display: block;
+        clear: both; text-align: center; font-family: Poppins;
+        font-style: normal}
+    .cta p{font-size: 16px;     font-weight: normal;}
+    .section-review .card-title{line-height: 24px}
+    /* .ReviewMobileCity .carousel{min-height: 560px !important;} */
+    .FooterMobileView{padding-top: 230px}
+    .cta button{    min-width: 264px;
+        height: 48px;
+        background: #ff8300;
+        border-radius: 36px;
+        font-family: Poppins;
+        font-style: normal;
+        font-size: 18px;
+        line-height: 27px;
+        color: #fff;
+        font-weight: normal;
+        text-transform: none;
+        margin-bottom: 0}
+    
+        .surrFaq h6{line-height: 22px !important}
+    };

@@ -1,0 +1,77 @@
+.review-carouselCity .header .rating {
+    display: flex;
+    align-items: center;
+  }
+  .review-carouselCity .header .navigation{
+    padding-right: 27px !important;
+  }
+  .review-carouselCity .header .navigation button {
+    color: #fff;
+  }
+  .review-carouselCity .header .navigation button:disabled {
+    opacity: 0.5;
+  }
+  .review-carouselCity .header .navigation svg {
+    width: 36px !important;
+    height: 36px !important;
+  }
+  .review-carouselCity .slides {
+    grid-template-columns: repeat(22, 548px);
+    grid-template-rows: 261px !important;
+    margin-top: 37px;
+    margin-left: 4px;
+  }
+  .review-carouselCity .slidesSurrogacy{
+    grid-template-columns: repeat(22, 548px);
+    grid-template-rows: 370px !important;
+    margin-top: 37px;
+    margin-left: 4px;
+  }
+  .review-carouselCity .slides .item {
+    background: #ffffff;
+    border: 1px solid #eeeeee;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding-left: 0;
+  }
+  
+    .review-carouselCity .slides .item img {
+    width: 68.59px !important;
+    height: 68.59px !important;
+    min-width: 68.59px !important;
+    margin-left: 24px;
+    margin-top: 16px;
+    border-radius: 20px !important;
+  }  
+  
+  .review-carouselCity .slides .item span {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    color: #ff8300;
+  }
+  .review-carouselCity .slides .item .data {
+    padding-right: 23px;
+    padding-bottom: 17px;
+  }
+  .review-carouselCity .slides .item h6 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #999299;
+    margin-top: -4px;
+  }
+  .review-carouselCity .slides .item p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333333;
+    margin-top: -2px;
+  }
+  

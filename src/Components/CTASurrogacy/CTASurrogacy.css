@@ -1,0 +1,40 @@
+.cta .ctaHeading {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    color: #924a91;
+}
+.cta button:hover{
+    background: #ff8300;
+}
+@media screen and (min-width: 710px) {
+    .cta .ctaHeading {
+        padding-top: 45px;
+        text-align: center;
+        color: #333333;
+        font-weight: 600;
+    }
+    .cta .bookFreeButton {
+        min-width: 264px;
+        height: 48px;
+        background: #ff8300 !important;
+        border-radius: 36px;
+        font-family: Poppins;
+        font-style: normal;
+        font-size: 18px;
+        line-height: 27px;
+        color: #fff;
+        font-weight: normal;
+        text-transform: none;
+        margin-bottom: 0;
+    }
+}
+@media screen and (max-width: 700px){
+    .cta .ctaHeading {
+        padding-top: 45px;
+        padding-left: 24px;
+        padding-right: 24px;
+    }   
+}

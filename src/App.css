@@ -1,0 +1,97 @@
+@font-face {
+  font-family: "Poppins";
+  src: local("Poppins"),
+    url(./Fonts/Poppins/Poppins-Regular.ttf) format("truetype");
+}
+
+/* .whatsappbtn {
+  border: 2px solid black;
+} */
+html,
+body {
+  overflow-x: hidden;
+}
+/* .blink {
+  
+  animation: blink-animation 1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+} */
+
+.slidelefttorighy {
+  width: 350px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: red;
+  animation: left_to_right 15s linear infinite;
+  cursor: pointer;
+}
+@keyframes left_to_right {
+  from {
+    margin-left: 0;
+  }
+  to {
+    margin-left: 100%;
+  }
+}
+/* ivfCostMediaclPanel */
+
+.ivfCostMediaclPanel {
+  display: grid;
+  grid-template-columns: repeat(10, 549.44px);
+  align-items: center;
+
+  overflow-x: hidden;
+  background: #f5f5f5;
+  margin-left: 50px;
+  grid-gap: 20px;
+}
+
+.ivfCostDoctor {
+  width: 549.44px;
+  height: 234px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.ivfCostDoctorImage {
+  width: 208.34px;
+  height: 208.34px;
+  background-size: cover;
+
+}
+.ivfCostDoctorTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  height: 90%;
+  width: 50%;
+}
+
+.ivfDoctorName {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+
+  /* Brand-color */
+
+  color: #924a91;
+}
